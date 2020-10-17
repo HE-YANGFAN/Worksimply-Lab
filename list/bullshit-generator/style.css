@@ -1,0 +1,73 @@
+body {
+    background-color: #e6e6e6;
+    color: #343a40;
+}
+
+header {
+    height: 10rem;
+}
+
+main {
+    width: 60rem;
+    min-height: calc(100vh - 10rem);
+}
+
+label {
+    font-size: 1.1rem;
+}
+
+input, select {
+    padding: .2em;
+    background-color: #f8f9fa;
+    border: rgba(52, 58, 64, .5) solid 1px;
+}
+
+input[type=text] {
+    width: 18rem;
+}
+
+input[type=number] {
+    width: 6rem;
+}
+
+select {
+    width: 4rem;
+}
+
+input:focus, select:focus {
+    outline: none !important;
+}
+
+article {
+    font-family: 'Noto Serif SC', serif;
+    background-color: #f8f9fa;
+}
+
+article p {
+    text-indent: 2em;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    background-color: transparent;
+    transition: .3s;
+}
+
+::-webkit-scrollbar:hover {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(140, 131, 136, 0.51);
+}
+
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-button {
+    display: none;
+}
