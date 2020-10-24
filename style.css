@@ -3,16 +3,18 @@ body {
 }
 
 header {
+    width: 100%;
     background-color: #181717;
-    height: 25rem;
+    height: 400px;
     color: #f8f9fa;
 }
 
 main {
-    width: 90%;
-    min-height: calc(100vh - 25rem);
-    max-width: 80rem;
+    width: 100%;
+    max-width: 1280px;
+    min-height: calc(100vh - 400px);
     background-color: white;
+    padding: 8px;
 }
 
 a {
@@ -22,23 +24,27 @@ a {
 
 .card {
     color: #343a40;
-    width: 18.5rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    transition: .5s;
+    width: 300px;
+    margin: 8px;
+    transition: box-shadow .5s;
 }
 
 .card:hover {
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .15);
-}
-
-.card-text {
-    height: 5rem;
-    font-weight: lighter;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, .15);
 }
 
 .card-title {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-weight: bold;
+}
+
+.card-text {
+    height: 80px;
+    font-weight: lighter;
+    overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
