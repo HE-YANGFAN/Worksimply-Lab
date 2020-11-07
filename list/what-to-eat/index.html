@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, shrink-to-fit=no">
+    <meta itemprop="name" content="吃点啥呢">
+    <meta itemprop="description" name="description" content="听我的，以后别再为拿完快递不知道吃什么而发愁了好吗？">
+    <meta itemprop="image" content="https://lab.worksimply.cn/list/what-to-eat/cover.png">
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>吃点啥呢</title>
+    <script type="text/javascript"
+            src="https://api.map.baidu.com/api?v=3.0&ak=vhKUHbuy8BWkkewZAs2GPyurZwA1veax"></script>
+</head>
+<body>
+<header class="d-flex justify-content-center align-items-center">
+    <div class="text-center">
+        <svg t="1604246099083" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"
+             p-id="1923" width="100" height="100">
+            <path d="M1010.15 135.51l10.25 26.48L688.63 518.2l-10.25-26.48 331.77-356.21z" fill="#1aa2ba"
+                  p-id="1924"></path>
+            <path d="M678.38 491.72l10.25 26.48-35.67-32.23-10.25-26.48 35.67 32.23z" fill="#1aa2ba" p-id="1925"></path>
+            <path d="M1010.15 135.51L678.38 491.72l-35.67-32.23 331.77-356.21 35.67 32.23z" fill="#E79FAA"
+                  p-id="1926"></path>
+            <path d="M806 42.9l17.39 22.44-216.06 436.2-17.4-22.45L806 42.9z" fill="#1aa2ba" p-id="1927"></path>
+            <path d="M589.93 479.09l17.4 22.45-43.4-20.68-17.4-22.45 43.4 20.68z" fill="#1aa2ba" p-id="1928"></path>
+            <path d="M806 42.9L589.93 479.09l-43.4-20.68L762.6 22.21 806 42.9z" fill="#E79FAA" p-id="1929"></path>
+            <path d="M32.41 330.44l37.92 28.31q-1.17 7-2.14 14.07l-37.93-28.31q1-7 2.15-14.07" fill="#9E9E9E"
+                  p-id="1930"></path>
+            <path d="M30.26 344.51l37.93 28.31a474.23 474.23 0 0 0-4.41 70.43l-37.93-28.31a475.58 475.58 0 0 1 4.41-70.43"
+                  fill="#A3A3A3" p-id="1931"></path>
+            <path d="M25.85 414.94l37.93 28.31A467.45 467.45 0 0 0 76.69 547l-37.92-28.3a467.55 467.55 0 0 1-12.92-103.76"
+                  fill="#A8A8A8" p-id="1932"></path>
+            <path d="M38.77 518.65L76.69 547a466.42 466.42 0 0 0 65.62 150l-37.92-28.31a466.37 466.37 0 0 1-65.62-150"
+                  fill="#ADADAD" p-id="1933"></path>
+            <path d="M104.39 668.63l37.92 28.31a463.23 463.23 0 0 0 68.58 80.86L173 749.49a463.23 463.23 0 0 1-68.58-80.86"
+                  fill="#A8A8A8" p-id="1934"></path>
+            <path d="M173 749.49l37.92 28.31A457.28 457.28 0 0 0 250 810.57l-37.93-28.31A457.14 457.14 0 0 1 173 749.49"
+                  fill="#A3A3A3" p-id="1935"></path>
+            <path d="M209.37 809.61l37.92 28.31q-5.76-4.06-11.41-8.27L198 801.35q5.64 4.2 11.41 8.26" fill="#858585"
+                  p-id="1936"></path>
+            <path d="M231.27 824.14l37.93 28.31-11.24 58.52-37.93-28.31 11.24-58.52z" fill="#1aa2ba" p-id="1937"></path>
+            <path d="M822.92 734.7l37.93 28.3C754.13 868.06 600.94 922.07 445 894.57a457.68 457.68 0 0 1-194.94-84l-37.93-28.31a457.67 457.67 0 0 0 195 84c156 27.5 309.15-26.51 415.86-131.56"
+                  fill="#785358" p-id="1938"></path>
+            <path d="M586.55 886.79l37.93 28.31a488.06 488.06 0 0 1-184 3.14 481.86 481.86 0 0 1-171.28-65.79l-37.93-28.31a482 482 0 0 0 171.24 65.79 488.05 488.05 0 0 0 184-3.14"
+                  fill="#1aa2ba" p-id="1939"></path>
+            <path d="M594.65 973.19l37.93 28.31-403.05-71.07-37.93-28.31 403.05 71.07zM612.42 880.67l37.92 28.31-17.76 92.52-37.93-28.31 17.77-92.52z"
+                  fill="#1aa2ba" p-id="1940"></path>
+            <path d="M956.22 493.33l37.93 28.31L70.33 358.75l-37.92-28.31 923.81 162.89z" fill="#808080"
+                  p-id="1941"></path>
+            <path d="M984.73 473.45l37.93 28.3-2.32 12.05-37.92-28.3 2.31-12.05z" fill="#1aa2ba" p-id="1942"></path>
+            <path d="M956.22 493.33l37.93 28.31q-2.58 11.79-5.7 23.32l-37.93-28.31q3.13-11.53 5.7-23.32" fill="#8F6369"
+                  p-id="1943"></path>
+            <path d="M950.52 516.65L988.45 545a485 485 0 0 1-18.52 55L932 571.68a480.43 480.43 0 0 0 18.52-55"
+                  fill="#8B5F66" p-id="1944"></path>
+            <path d="M932 571.68L969.93 600a481 481 0 0 1-25.07 52.5l-37.92-28.31A480.94 480.94 0 0 0 932 571.68"
+                  fill="#865C63" p-id="1945"></path>
+            <path d="M906.94 624.18l37.92 28.31a483.27 483.27 0 0 1-34.06 53l-37.92-28.31a484.33 484.33 0 0 0 34.06-53"
+                  fill="#81595F" p-id="1946"></path>
+            <path d="M872.88 677.17l37.92 28.31A485.72 485.72 0 0 1 860.85 763l-37.93-28.3a484.88 484.88 0 0 0 50-57.53"
+                  fill="#7D565C" p-id="1947"></path>
+            <path d="M822.92 734.7l37.93 28.3C754.13 868.06 600.94 922.07 445 894.57a457.68 457.68 0 0 1-194.94-84l-37.93-28.31a457.67 457.67 0 0 0 195 84c156 27.5 309.15-26.51 415.86-131.56"
+                  fill="#1aa2ba" p-id="1948"></path>
+            <path d="M13.15 302.13l971.58 171.32-2.31 12.05c-38 197.93-187.51 347.28-370 395.17l-17.77 92.52-403-71.07 17.77-92.51C57.05 702.68-27.17 512.11 10.84 314.18z m393.91 564.13c250.78 44.22 494.43-122.34 549.16-372.93L32.41 330.44C-10 583.21 156.27 822 407.06 866.26m168.25 79l11.24-58.52a488.05 488.05 0 0 1-184 3.14 482 482 0 0 1-171.24-65.79L220 882.66l355.28 62.65"
+                  fill="#FCFCFC" p-id="1949"></path>
+            <path d="M982.42 485.5l37.92 28.3q-3.63 18.93-8.6 37.25l-37.93-28.31q5-18.32 8.61-37.24" fill="#1aa2ba"
+                  p-id="1950"></path>
+            <path d="M973.81 522.74l37.93 28.31a506.24 506.24 0 0 1-19.36 57.51l-37.93-28.31a504.27 504.27 0 0 0 19.36-57.51"
+                  fill="#1aa2ba" p-id="1951"></path>
+            <path d="M954.45 580.25l37.93 28.31a503.45 503.45 0 0 1-26.2 54.87l-37.92-28.31a500.67 500.67 0 0 0 26.19-54.87"
+                  fill="#1aa2ba" p-id="1952"></path>
+            <path d="M928.26 635.12l37.92 28.31a504.72 504.72 0 0 1-35.46 55.22l-37.93-28.31a503.31 503.31 0 0 0 35.47-55.22"
+                  fill="#1aa2ba" p-id="1953"></path>
+            <path d="M892.79 690.34l37.93 28.31a509.24 509.24 0 0 1-52.19 60.18l-37.93-28.3a510.14 510.14 0 0 0 52.19-60.19"
+                  fill="#1aa2ba" p-id="1954"></path>
+            <path d="M840.6 750.53l37.93 28.3A510.23 510.23 0 0 1 650.34 909l-37.92-28.31A510.22 510.22 0 0 0 840.6 750.53"
+                  fill="#1aa2ba" p-id="1955"></path>
+            <path d="M956.22 493.33c-54.73 250.59-298.37 417.15-549.16 372.93s-417-283-374.65-535.82z" fill="#17a2b8"
+                  p-id="1956"></path>
+        </svg>
+        <h2 id="title" class="display-4 user-select-none">吃点啥呢</h2>
+    </div>
+</header>
+<main id="main" class="mx-auto">
+    <div id="map" class="mb-3 shadow-sm rounded"></div>
+    <div class="mb-3 rounded input-group shadow-sm">
+        <div class="input-group-prepend">
+            <span class="input-group-text">类别</span>
+        </div>
+        <input class="form-control border" id="type" value="餐馆" type="text">
+    </div>
+    <div class="mb-3 d-flex">
+        <div class="rounded input-group shadow-sm">
+            <div class="input-group-prepend">
+                <span class="input-group-text">范围</span>
+            </div>
+            <input class="form-control border" id="radius" value="100" type="number">
+            <div class="input-group-append">
+                <span class="input-group-text">m</span>
+            </div>
+        </div>
+        <button id="wte" class="btn btn-info shadow-sm ml-3" onclick="whatToEat()">
+            <div class="spinner-border spinner-border-sm text-light" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+            <span>吃啥</span>
+        </button>
+    </div>
+    <div id="result" class="p-3 bg-white rounded shadow-sm w-100">
+        <p id="result-name" class="font-weight-bold"></p>
+        <p id="result-address" class="small text-truncate"></p>
+        <p class="m-0"><a id="result-url" href="">点击查看详情</a></p>
+    </div>
+</main>
+<script type="text/javascript" src="https://qzonestyle.gtimg.cn/qzone/qzact/common/share/share.js"></script>
+<script type="text/javascript">
+    setShareInfo({
+        title: '吃点啥呢',
+        summary: '听我的，以后别再为拿完快递不知道吃什么而发愁了好吗？',
+        pic: 'https://lab.worksimply.cn/list/what-to-eat/cover.png',
+        url: 'https://lab.worksimply.cn/list/what-to-eat/index.html',
+        WXconfig: {
+            swapTitleInWX: true,
+            appId: '',
+            timestamp: '',
+            nonceStr: '',
+            signature: ''
+        }
+    });
+</script>
+<script type="text/javascript" src="script.js">
+</script>
+</body>
+</html>
