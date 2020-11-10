@@ -18,3 +18,4 @@
 2. 狗屁不通文章生成器（bullshit-generator） 来源：(已改造）[BullshitGenerator](https://github.com/menzi11/BullshitGenerator)
 3. 加密（encrypt） 来源：原创（引用 *crypto.js* 库）
 4. 初音音乐生成器（mikutap） 来源：[MikuTap](https://aidn.jp/mikutap)
+5. 吃点啥呢（what-to-eat） 来源：原创（调用百度地图API）

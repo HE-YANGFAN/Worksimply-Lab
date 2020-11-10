@@ -29,6 +29,13 @@ let lastSearch = {
     }
 }
 
+Map.addEventListener("click", function (e) {
+    Map.clearOverlays()
+    let newPoint = e.point
+    Point = newPoint
+    Map.addOverlay(new BMap.Marker(newPoint))
+})
+
 function whatToEat() {
     let btn = $('#wte'), resultPane = $('#result'), t = $('#type').value, r = parseInt($('#radius').value), list = []
     btn.setAttribute('disabled', 'true')
@@ -60,7 +67,7 @@ function whatToEat() {
                     }
                 } else {
                     alert('别吧，这个鬼地方毛都没得吃╮(╯▽╰)╭')
-		    btn.removeAttribute('disabled')
+                    btn.removeAttribute('disabled')
                 }
             }
         }
